@@ -28,12 +28,10 @@ public class Player : MonoBehaviour
 
     [Header("Health")]
     [SerializeField] private int maxHealth = 100;
-    private int currentHealth;
-
-    [Header("Health UI")]
-    [SerializeField] private List<Image> heartImages;
-    [SerializeField] private Sprite fullHeartSprite;
+    private int currentHealth;    [Header("Health UI")]    [SerializeField] private List<Image> heartImages;    [SerializeField] private Sprite fullHeartSprite;
     [SerializeField] private Sprite emptyHeartSprite;
+    [SerializeField] private string healthUISortingLayerName = "UI";
+    [SerializeField] private int healthUISortingOrder = 10;
 
     [Header("Bow")]
     [SerializeField] private GameObject bowPrefab;
@@ -94,6 +92,7 @@ public class Player : MonoBehaviour
     {
         currentHealth = maxHealth;
         UpdateHealthUI();
+        SetHeartImagesSortingLayer();
 
         GameInput.Instance.OnAttackAction += GameInput_OnAttackAction;
         GameInput.Instance.OnDashAction += GameInput_OnDashAction;
@@ -374,6 +373,23 @@ public class Player : MonoBehaviour
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         UpdateHealthUI();
+    }
+
+    private void SetHeartImagesSortingLayer()
+    {
+        if (heartImages == null || heartImages.Count == 0) return;
+
+        foreach (var heartImage in heartImages)
+        {
+            if (heartImage == null) continue;
+            
+            Canvas canvas = heartImage.GetComponentInParent<Canvas>();
+            if (canvas != null)
+            {
+                canvas.sortingLayerName = healthUISortingLayerName;
+                canvas.sortingOrder = healthUISortingOrder;
+            }
+        }
     }
 
     private void UpdateHealthUI()

@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Managers\Editor\EnemyManagerEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\PlayerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

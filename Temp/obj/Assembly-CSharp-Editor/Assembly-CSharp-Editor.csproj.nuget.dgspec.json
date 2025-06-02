@@ -1,0 +1,241 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Assembly-CSharp-Editor.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Assembly-CSharp-Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Assembly-CSharp-Editor.csproj",
+        "projectName": "Assembly-CSharp-Editor",
+        "projectPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Assembly-CSharp-Editor.csproj",
+        "packagesPath": "C:\\Users\\Deard51\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Temp\\obj\\Assembly-CSharp-Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deard51\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Assembly-CSharp.csproj": {
+                "projectPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Assembly-CSharp.csproj"
+              },
+              "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlus.csproj": {
+                "projectPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlus.csproj"
+              },
+              "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlusEditor.csproj": {
+                "projectPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlusEditor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Assembly-CSharp.csproj",
+        "packagesPath": "C:\\Users\\Deard51\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Temp\\obj\\Assembly-CSharp\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deard51\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlus.csproj": {
+                "projectPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlus.csproj"
+              },
+              "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlusEditor.csproj": {
+                "projectPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlusEditor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlus.csproj",
+        "projectName": "NavMeshPlus",
+        "projectPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlus.csproj",
+        "packagesPath": "C:\\Users\\Deard51\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Temp\\obj\\NavMeshPlus\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deard51\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlusEditor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlusEditor.csproj",
+        "projectName": "NavMeshPlusEditor",
+        "projectPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlusEditor.csproj",
+        "packagesPath": "C:\\Users\\Deard51\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\Temp\\obj\\NavMeshPlusEditor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deard51\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlus.csproj": {
+                "projectPath": "C:\\Users\\Deard51\\Desktop\\NewGame\\Game\\NavMeshPlus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1948 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.47f1 (2ad1ed33fd3b) revision 2806253'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ru' Physical Memory: 14029 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+C:/Users/HP/Documents/GitHub/Unity_game
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+63670
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/HP/Documents/GitHub/Unity_game
+C:/Users/HP/Documents/GitHub/Unity_game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28392]  Target information:
+
+Player connection [28392]  * "[IP] 192.168.0.155 [Port] 0 [Flags] 2 [Guid] 134688570 [EditorId] 134688570 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LVLHDUN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28392] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28392] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.47f1 (2ad1ed33fd3b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/HP/Documents/GitHub/Unity_game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.5613
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004986 seconds.
+- Loaded All Assemblies, in  0.538 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.429 seconds
+Domain Reload Profiling: 965ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (177ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (430ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.037 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.057 seconds
+Domain Reload Profiling: 2090ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (722ms)
+		LoadAssemblies (526ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (215ms)
+			BuildScriptInfoCaches (72ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1058ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (842ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (530ms)
+			ProcessInitializeOnLoadMethodAttributes (159ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6717 unused Assets / (6.2 MB). Loaded Objects now: 7402.
+Memory consumption went from 199.6 MB to 193.4 MB.
+Total: 10.135800 ms (FindLiveObjects: 0.604800 ms CreateObjectMapping: 0.570900 ms MarkObjects: 5.248800 ms  DeleteObjects: 3.708900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 125532.767594 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_597.asset
+  artifactKey: Guid(f8d1bcb10eaf9d74ca8453e0bdbfa87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_597.asset using Guid(f8d1bcb10eaf9d74ca8453e0bdbfa87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a617a75a7e2908a106b06e19d402e4b') in 0.1405243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_690.asset
+  artifactKey: Guid(8858c2aedcfd4fd459cf5ab61d6e3ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_690.asset using Guid(8858c2aedcfd4fd459cf5ab61d6e3ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bfdfa4c660ef81743027c0b2da1a51c') in 0.0200322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_647.asset
+  artifactKey: Guid(e797fc7fd6b5a4643a6f82059f21eaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_647.asset using Guid(e797fc7fd6b5a4643a6f82059f21eaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea0197be34351dbdf200756cb0f04f25') in 0.0222625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_757.asset
+  artifactKey: Guid(40e8302a310e17048907ae5d66439286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_757.asset using Guid(40e8302a310e17048907ae5d66439286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d9bbb71600178fa97cccb33ce35aa03') in 0.0244487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_376.asset
+  artifactKey: Guid(a57df00e5e5810d468c83149d3ed571d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_376.asset using Guid(a57df00e5e5810d468c83149d3ed571d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7810c499684bffc3244b2ea9c68d61ce') in 0.0243904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_290.asset
+  artifactKey: Guid(5261ff7a97f459f448da269f9cac06da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_290.asset using Guid(5261ff7a97f459f448da269f9cac06da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '233fa4ad4be50e239a050d0ac4755639') in 0.0236584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_330.asset
+  artifactKey: Guid(31e2a8a4e2540a147948f53d361d4e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_330.asset using Guid(31e2a8a4e2540a147948f53d361d4e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72a9171288d58fbb93e9b126ca3b76c3') in 0.0226463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_181.asset
+  artifactKey: Guid(472a70899150a6f4daffdb1a22e3f229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_181.asset using Guid(472a70899150a6f4daffdb1a22e3f229) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f09c42f2a49cccdc88408dc499ba53f6') in 0.021824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_173.asset
+  artifactKey: Guid(f1c20dc7791ff0741858e970fb19d1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_173.asset using Guid(f1c20dc7791ff0741858e970fb19d1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c7e85e12cadad11961df8480acabd21') in 0.0235068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_158.asset
+  artifactKey: Guid(57171ecb066394546b204f6a4641f30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_158.asset using Guid(57171ecb066394546b204f6a4641f30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2699bfafb18cef056cfedbc87149896') in 0.0247945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_483.asset
+  artifactKey: Guid(1f401524e00f1f84e92ddc6ed90ed63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_483.asset using Guid(1f401524e00f1f84e92ddc6ed90ed63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bb5cac6e0e698c12c9901414293d1f5') in 0.0251733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_622.asset
+  artifactKey: Guid(8fa75be47c2c00d4c8b33ef7dc66d68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_622.asset using Guid(8fa75be47c2c00d4c8b33ef7dc66d68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d95d2051e8d149c62e44ab2fcb89c26') in 0.0261435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_515.asset
+  artifactKey: Guid(38b46b77ab7ba2f4eac7ee62eb360727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_515.asset using Guid(38b46b77ab7ba2f4eac7ee62eb360727) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d2d48582c8812743fcb6dda431aee2f') in 0.0231314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_135.asset
+  artifactKey: Guid(405b7f6a90268eb4ea1abbf824df0c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_135.asset using Guid(405b7f6a90268eb4ea1abbf824df0c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9cea0b0af3fc0735e947dd36d0fe428') in 0.024739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_109.asset
+  artifactKey: Guid(12a3dc8101a047f4f91aecb6d698a1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_109.asset using Guid(12a3dc8101a047f4f91aecb6d698a1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8090dd3198555daecc9ee3460cd14b0') in 0.0247419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_999.asset
+  artifactKey: Guid(8eaef2228d10c7b4391679dcafe5f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_999.asset using Guid(8eaef2228d10c7b4391679dcafe5f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '591ac8469f380e4bd680cff5d9fc3dd9') in 0.0255648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_393.asset
+  artifactKey: Guid(8f8fe1fbc66dfaf42bffc17f5e779a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_393.asset using Guid(8f8fe1fbc66dfaf42bffc17f5e779a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae5e2fdbfc260ed43937761408b893b6') in 0.0255025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_890.asset
+  artifactKey: Guid(059ab8fa33562a444a5414ed02897b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_890.asset using Guid(059ab8fa33562a444a5414ed02897b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c7c52aca4e36af220b135f61713cf04') in 0.0245647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_932.asset
+  artifactKey: Guid(08ff5b6d3a93fad4cb4572d19e226b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_932.asset using Guid(08ff5b6d3a93fad4cb4572d19e226b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d0faabbc26a9d4ac65430aaf812e439') in 0.0253197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_928.asset
+  artifactKey: Guid(f7cab162a5b692d40a182918679473ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_928.asset using Guid(f7cab162a5b692d40a182918679473ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1c3af15757993ddefae56a05f010b1b') in 0.0238247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_43.asset
+  artifactKey: Guid(fd00778bb453e4347853aa8e289d928e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_43.asset using Guid(fd00778bb453e4347853aa8e289d928e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69c78f7c157e67e5aa51076ec4326993') in 0.0240309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_77.asset
+  artifactKey: Guid(8127120ffa5f8c640bb1fcf6fdb25323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_77.asset using Guid(8127120ffa5f8c640bb1fcf6fdb25323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8bd78cb8a57c98c7bacf57397dccb80') in 0.022293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_648.asset
+  artifactKey: Guid(7e2daa3731a68084987c81d6aea552a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_648.asset using Guid(7e2daa3731a68084987c81d6aea552a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9128d994be98d02763e74108d0ba9f68') in 0.0220664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_680.asset
+  artifactKey: Guid(51f4c6f6b4494744fb2357973a69d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_680.asset using Guid(51f4c6f6b4494744fb2357973a69d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b93736242a60ac1eff529abb1859225') in 0.0253299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_1002.asset
+  artifactKey: Guid(4e5484d539570c447a392edd3006728a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_1002.asset using Guid(4e5484d539570c447a392edd3006728a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78654a560237b7a5de5c4b0a69d37078') in 0.0182124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_465.asset
+  artifactKey: Guid(42f7ba8a347853d4bb8ab02c4f5f82bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_465.asset using Guid(42f7ba8a347853d4bb8ab02c4f5f82bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3034390be3be24ad1706afc904f9a7dc') in 0.0247713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_4.asset
+  artifactKey: Guid(540a8e54844dc16409cc0e817ef4fead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_4.asset using Guid(540a8e54844dc16409cc0e817ef4fead) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb10509a5774d19ed769252e8a5a6f78') in 0.022556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_30.asset
+  artifactKey: Guid(947373fa1f5001f46a1fa3b06b2eebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_30.asset using Guid(947373fa1f5001f46a1fa3b06b2eebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6be1f29ac5f533fc653da299772153d') in 0.0240757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_621.asset
+  artifactKey: Guid(506a6617b86e183458b33bae48e9739c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_621.asset using Guid(506a6617b86e183458b33bae48e9739c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '255212c3450994beb3e2df5201fb342b') in 0.0315114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_983.asset
+  artifactKey: Guid(4b5bdcd4847179f4fade376ac3acadcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_983.asset using Guid(4b5bdcd4847179f4fade376ac3acadcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e6974f30a4cca7562834376dd7d76ce') in 0.0318768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_994.asset
+  artifactKey: Guid(40c31ce961067d6468c0e112597460bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_994.asset using Guid(40c31ce961067d6468c0e112597460bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b07183e14c2df46ad6eba4cf6628d7fa') in 0.0063774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_711.asset
+  artifactKey: Guid(399d0e52eed58e0468b1ea52426acd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_711.asset using Guid(399d0e52eed58e0468b1ea52426acd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e46937b6e6895f4ec779c5484fc4ce1') in 0.0235186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_759.asset
+  artifactKey: Guid(94744197c2c90d143b5192847586c8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_759.asset using Guid(94744197c2c90d143b5192847586c8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '046e203b7fb0ac7e2ae1b7afa201c2c1') in 0.0253874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_410.asset
+  artifactKey: Guid(0e193a74c089ec742b838c73c5e1426e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_410.asset using Guid(0e193a74c089ec742b838c73c5e1426e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d63c33649897f78bae8774ad90c9639') in 0.0245727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_1029.asset
+  artifactKey: Guid(ccddabdef7258d947b6d740ac18548cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_1029.asset using Guid(ccddabdef7258d947b6d740ac18548cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4817ea07b60e93e7e6c1f9694da5087d') in 0.0084208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_640.asset
+  artifactKey: Guid(3679bb4d12c26654796447e2e6b0da67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_640.asset using Guid(3679bb4d12c26654796447e2e6b0da67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8f9c73d055ac0b0a7b9d5bdfcabf9a5') in 0.0113357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_521.asset
+  artifactKey: Guid(84c4fd7c19248924fbfb669381cdfad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_521.asset using Guid(84c4fd7c19248924fbfb669381cdfad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '334bcc06ad999dbc2b91329d4923e2b0') in 0.0291129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_1017.asset
+  artifactKey: Guid(56e14b477dd84de4690b68b0fe7ee03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_1017.asset using Guid(56e14b477dd84de4690b68b0fe7ee03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00b69c02dc7f5823225b868135cf9c72') in 0.0313468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_927.asset
+  artifactKey: Guid(0ee3115afb7c90e4684194457968ccca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_927.asset using Guid(0ee3115afb7c90e4684194457968ccca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a5c1a6ee591596b9fb38c0a4e211b51') in 0.0185314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_557.asset
+  artifactKey: Guid(816517275d8081947a68418f7c362674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_557.asset using Guid(816517275d8081947a68418f7c362674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5aef69969ac0f52c6365a03f47213b4') in 0.0115509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_723.asset
+  artifactKey: Guid(2526dd4aa039c4848a6fe2ffe276549d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_723.asset using Guid(2526dd4aa039c4848a6fe2ffe276549d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '416673636e98cc6ff956fd959cdb4b76') in 0.034413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_73.asset
+  artifactKey: Guid(acae6b6bded3e3f40a4582483a7d665f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_73.asset using Guid(acae6b6bded3e3f40a4582483a7d665f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5597b348cb8c258bcd87f4e03122ab13') in 0.0262016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_650.asset
+  artifactKey: Guid(584862103251caf4f9dc082057cd8c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_650.asset using Guid(584862103251caf4f9dc082057cd8c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90c6ac49ba90d42f7893988fa4e10eba') in 0.0097995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_837.asset
+  artifactKey: Guid(d763475ff13a7574ca01ccbcff20de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_837.asset using Guid(d763475ff13a7574ca01ccbcff20de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbcad2edf6530116304930f9ebbbb2c3') in 0.0257005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_144.asset
+  artifactKey: Guid(5c96fa2adf849e6439ae170e72f8afd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_144.asset using Guid(5c96fa2adf849e6439ae170e72f8afd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8ef9a330b70cb993c5bc4debdc4d60e') in 0.0242858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_526.asset
+  artifactKey: Guid(39ca4355047c96e41a63d72d3fdf1c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_526.asset using Guid(39ca4355047c96e41a63d72d3fdf1c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d18649ca6743276cc0a30f069d76a22') in 0.0237824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_248.asset
+  artifactKey: Guid(f87f443fb085c674e866a93329665469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_248.asset using Guid(f87f443fb085c674e866a93329665469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fa924142e2dfc0150ba2a67bfc579de') in 0.0082973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_615.asset
+  artifactKey: Guid(91b36569ba580474292370174b286a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_615.asset using Guid(91b36569ba580474292370174b286a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af3d51be807f123c1773feaf76970200') in 0.024973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_709.asset
+  artifactKey: Guid(fa26f3add5961944eaa8437eda0d0901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_709.asset using Guid(fa26f3add5961944eaa8437eda0d0901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c9e137f9047738ca0cbf1d02f7ff439') in 0.0324933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_586.asset
+  artifactKey: Guid(3178d1d81d966d241be780731376cb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_586.asset using Guid(3178d1d81d966d241be780731376cb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '833f67d454281221ad19d81a2a9dd2bf') in 0.0196954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_91.asset
+  artifactKey: Guid(03f4fa94a1492ea4e8e882132b239a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_91.asset using Guid(03f4fa94a1492ea4e8e882132b239a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1e8bab0a07992d213a0815b77cfde56') in 0.0220351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_654.asset
+  artifactKey: Guid(6a7c16761f69d574cb23eb47f3121f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_654.asset using Guid(6a7c16761f69d574cb23eb47f3121f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d8a728e452cdc7919bdf1a847791dc7') in 0.0245315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_489.asset
+  artifactKey: Guid(f763ac5110c52284ba6d096e0b0c1614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_489.asset using Guid(f763ac5110c52284ba6d096e0b0c1614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '641d4d9d5128c32e6f9997c817e94b5b') in 0.0229098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_228.asset
+  artifactKey: Guid(56aedf81c4ef30545ac352ac441e22a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_228.asset using Guid(56aedf81c4ef30545ac352ac441e22a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bb6438825de0595dc5b561a53fa8cd7') in 0.0240965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_583.asset
+  artifactKey: Guid(f4e6ef13d66caff46bf741be0ec96c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_583.asset using Guid(f4e6ef13d66caff46bf741be0ec96c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '321399a4d9c8a25809f398691620da78') in 0.0282831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_310.asset
+  artifactKey: Guid(4c23e3229fd3fcf4dbc95df43324b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_310.asset using Guid(4c23e3229fd3fcf4dbc95df43324b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0742702c37943136f2c28b837a22d8bd') in 0.0227157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_277.asset
+  artifactKey: Guid(afb05f230a1477546bb06206e3c71180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_277.asset using Guid(afb05f230a1477546bb06206e3c71180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b875790920587436b2d36b293e76c20') in 0.0252011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_696.asset
+  artifactKey: Guid(c5f0a72962e191145840e86517a63172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_696.asset using Guid(c5f0a72962e191145840e86517a63172) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f2874ff5d2b4362b5ba5279e12ccb82') in 0.0237067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_117.asset
+  artifactKey: Guid(367e4f7942f62bd489d59a3d24f381a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_117.asset using Guid(367e4f7942f62bd489d59a3d24f381a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5943ef6e3be5a46c5dd1a1b5c7c350aa') in 0.033172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_767.asset
+  artifactKey: Guid(240643edda0a74446a7bd2d244027ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_767.asset using Guid(240643edda0a74446a7bd2d244027ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d66c955341ff468a31c6da922f72c64') in 0.0236208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_235.asset
+  artifactKey: Guid(c2454cae0fb36734dabae6fb19968e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_235.asset using Guid(c2454cae0fb36734dabae6fb19968e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4cf2d1948f3ac29616825f50d5bdbf8') in 0.0245948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_954.asset
+  artifactKey: Guid(9dd7266fb0ae308468a21b41efc2d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_954.asset using Guid(9dd7266fb0ae308468a21b41efc2d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e970c959cea95f5d6072ab667103609') in 0.0105412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_870.asset
+  artifactKey: Guid(78a0d8fbd6256f74cbebc3047e7aa263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_870.asset using Guid(78a0d8fbd6256f74cbebc3047e7aa263) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c27addf7a6cb98b193f27ad85cf4758') in 0.0074444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_219.asset
+  artifactKey: Guid(0d9d1073f6eddb740903df21f134dee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_219.asset using Guid(0d9d1073f6eddb740903df21f134dee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c577ce806485c692670c473bab9bbcc') in 0.0087102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_845.asset
+  artifactKey: Guid(c65403d2b684fd348a22777cd9117b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_845.asset using Guid(c65403d2b684fd348a22777cd9117b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2619403ba3f87ab747fa4e865efa960') in 0.0233413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_792.asset
+  artifactKey: Guid(c1510ca4892d48940bc19bd4006ffe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_792.asset using Guid(c1510ca4892d48940bc19bd4006ffe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ea458794dbaa4078dd7049a26aaec66') in 0.0108202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_45.asset
+  artifactKey: Guid(a4aeb156af206c14a9ee27111c0c3d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_45.asset using Guid(a4aeb156af206c14a9ee27111c0c3d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd577c935a2ef0b4417b5b7ce5904b84c') in 0.0253425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_396.asset
+  artifactKey: Guid(2a39b1d5d66d53b4e8873f102274b8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_396.asset using Guid(2a39b1d5d66d53b4e8873f102274b8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bd6e2a6cd19e6f41ac3b257fe8d5ec3') in 0.0240621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_710.asset
+  artifactKey: Guid(7558132af36471141b6c0cb30eb627fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_710.asset using Guid(7558132af36471141b6c0cb30eb627fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '478c1d75a0328ef3fea51005ce7cadad') in 0.0245713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_793.asset
+  artifactKey: Guid(df16667bf7e961c449b58d2d4dc3a5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_793.asset using Guid(df16667bf7e961c449b58d2d4dc3a5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4f15e18638a8d77a19a1d3cea842cff') in 0.0084458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_83.asset
+  artifactKey: Guid(d5627278b450cfc47bea8ee66e19cf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_83.asset using Guid(d5627278b450cfc47bea8ee66e19cf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a8ce14f475192142c52a9b3941417d4') in 0.0086052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_18.asset
+  artifactKey: Guid(39868924f362adf4c9f97f99d89b1c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_18.asset using Guid(39868924f362adf4c9f97f99d89b1c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4307999cc4cc7ae7b6000975999f328d') in 0.0076556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_814.asset
+  artifactKey: Guid(585e632e810b6c447bb9fd7a3d1dabd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_814.asset using Guid(585e632e810b6c447bb9fd7a3d1dabd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79723cfc2f8681f63c9e137b744d0be5') in 0.0253951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_47.asset
+  artifactKey: Guid(76d23e4e8c312d746a7a4fcca17ecfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_47.asset using Guid(76d23e4e8c312d746a7a4fcca17ecfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27b19e6f0956425ee6bc75638bc13458') in 0.0220511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_694.asset
+  artifactKey: Guid(6ab120ab4941362419183865e660085d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_694.asset using Guid(6ab120ab4941362419183865e660085d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd47109992cef92178b465b0b6c9adf9') in 0.0259841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_319.asset
+  artifactKey: Guid(844a2be52aefbb54f82e5a0981034d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_319.asset using Guid(844a2be52aefbb54f82e5a0981034d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6ade81ff44509964cb6e1456124e80b') in 0.0275427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_633.asset
+  artifactKey: Guid(2af5c5477f98ea9499b7148aa392bedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_633.asset using Guid(2af5c5477f98ea9499b7148aa392bedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b2e6599452acab8ac109bd98cce905e') in 0.0282544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_738.asset
+  artifactKey: Guid(1844d11181e55c544853eca25b4ee1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_738.asset using Guid(1844d11181e55c544853eca25b4ee1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf1978f42194f7c713c86ae171838c26') in 0.0265878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_600.asset
+  artifactKey: Guid(4235b41490b474f4f93bcb43b830dc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_600.asset using Guid(4235b41490b474f4f93bcb43b830dc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff4293aae5c8ccbc30cf892ecacb0542') in 0.0248809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_2.asset
+  artifactKey: Guid(7835aa549dc843a40905bbef022d2f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_2.asset using Guid(7835aa549dc843a40905bbef022d2f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e499e656127e2ec71f54ee6d0654094e') in 0.0115647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_291.asset
+  artifactKey: Guid(adab2efe5f6eeda46ad3abb315908ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_291.asset using Guid(adab2efe5f6eeda46ad3abb315908ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23dd5e7ae4cebc5dd513f209d571679e') in 0.0238346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_478.asset
+  artifactKey: Guid(4a3155a91890a9b4f88702d876a26a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_478.asset using Guid(4a3155a91890a9b4f88702d876a26a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84bc0f5bd481081df841cdf6fbf51229') in 0.0262707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_199.asset
+  artifactKey: Guid(ca3ab0d1b532a954e8e22309ee191a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_199.asset using Guid(ca3ab0d1b532a954e8e22309ee191a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c13b5ca2cc02246fb042728834226d6') in 0.0128356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_336.asset
+  artifactKey: Guid(42719f1084fafa249848622b88c738b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_336.asset using Guid(42719f1084fafa249848622b88c738b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '531ec0214b95a3b88e5ab6b3ae2deeed') in 0.0083564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_851.asset
+  artifactKey: Guid(7c570af6cc95b2b449b4f3dd46f05084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_851.asset using Guid(7c570af6cc95b2b449b4f3dd46f05084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7e4778b1fce78f89cd8f71e56f55f8f') in 0.0246896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_115.asset
+  artifactKey: Guid(308c4e6ecf5fd314692d5e8f36a5de72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_115.asset using Guid(308c4e6ecf5fd314692d5e8f36a5de72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c22ed90680758690f67a9d77eec54b91') in 0.0249359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_335.asset
+  artifactKey: Guid(6bd2767cf29a93a40a5c78d7b1062c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_335.asset using Guid(6bd2767cf29a93a40a5c78d7b1062c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '958d49a2292b706fd0b0cf814d81c1d0') in 0.0070951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_812.asset
+  artifactKey: Guid(be23c7763b45d26468319452eea2eb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_812.asset using Guid(be23c7763b45d26468319452eea2eb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c4a5e937569cca3f361de8a0fb97efd') in 0.0260393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_239.asset
+  artifactKey: Guid(f295ae9e998970a4c83d975400439b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_239.asset using Guid(f295ae9e998970a4c83d975400439b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00b012542247b2efeae110edd9c1ac24') in 0.0099802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_94.asset
+  artifactKey: Guid(be9782860a8710347a3dda025d41bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_94.asset using Guid(be9782860a8710347a3dda025d41bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7b01afff063b7bce33d880fcbb16650') in 0.0269157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_9.asset
+  artifactKey: Guid(24ca441dd9ff46d4292fb29eade2d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_9.asset using Guid(24ca441dd9ff46d4292fb29eade2d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3eecfb3f06ef5eb397e1f8e76a7431b4') in 0.0098426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_329.asset
+  artifactKey: Guid(b07d3879e47467f4eb5a5ad7b2056fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_329.asset using Guid(b07d3879e47467f4eb5a5ad7b2056fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f7e545a58f2a9ead172e7e538926754') in 0.0246964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_274.asset
+  artifactKey: Guid(70bdf7340ce6c3b4097c833525ee3e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_274.asset using Guid(70bdf7340ce6c3b4097c833525ee3e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f29ff5c9e0b146090e701e6e0617792b') in 0.0230172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_432.asset
+  artifactKey: Guid(c4b75fc5a89274944a18871a28c14c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_432.asset using Guid(c4b75fc5a89274944a18871a28c14c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6756d6286005e6ae224e06c208253e99') in 0.0101286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_111.asset
+  artifactKey: Guid(3bf923ff92d292d48b26be12d76aad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_111.asset using Guid(3bf923ff92d292d48b26be12d76aad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '804c4cd20004c08c10bb4e37effa641a') in 0.0085767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_585.asset
+  artifactKey: Guid(5826abeecc9ac8c4fbaf5b002a067f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_585.asset using Guid(5826abeecc9ac8c4fbaf5b002a067f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a063ae902b3255e90fcb02110e9a4e56') in 0.02766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_956.asset
+  artifactKey: Guid(380dcccf683df5345bb05dad34f10db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_956.asset using Guid(380dcccf683df5345bb05dad34f10db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55a8f6bdc87dadef7d6b315c3782ee95') in 0.008573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_415.asset
+  artifactKey: Guid(84e1074a091024f40ac3d17f5706b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_415.asset using Guid(84e1074a091024f40ac3d17f5706b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ad0014dcb70a9e157ba181f1f908e34') in 0.0092561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_49.asset
+  artifactKey: Guid(fa20ef3f52e8c564ab3f6b5c1eb0c77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_49.asset using Guid(fa20ef3f52e8c564ab3f6b5c1eb0c77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '836f1528e7f0ed8b6da87a4392e5f687') in 0.0085225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_771.asset
+  artifactKey: Guid(4092d6ce2e6bb8e4080532906dec09c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_771.asset using Guid(4092d6ce2e6bb8e4080532906dec09c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0297bae9502c939af800aa132be932b3') in 0.0080859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_213.asset
+  artifactKey: Guid(7e082a1f306334a49b5b9ded225ea767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_213.asset using Guid(7e082a1f306334a49b5b9ded225ea767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce52d8af3ebc9cd34b88df39a3053324') in 0.008261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_256.asset
+  artifactKey: Guid(9b20775ed6fcc754791120805214824f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_256.asset using Guid(9b20775ed6fcc754791120805214824f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb5334d1648e89dad4a0cfd0656e9bc0') in 0.0118277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_246.asset
+  artifactKey: Guid(cd3adf45dc4db7d40af83996e6a47bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_246.asset using Guid(cd3adf45dc4db7d40af83996e6a47bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6099eb92a1f14bbeb5fa12e29055a005') in 0.008852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_3.asset
+  artifactKey: Guid(f6e64b3265e7df4448a84b9764668e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_3.asset using Guid(f6e64b3265e7df4448a84b9764668e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d929d34ee2d59074a91748670451b36') in 0.0267304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_68.asset
+  artifactKey: Guid(5a985c5000e268841bd70209df6f18be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_68.asset using Guid(5a985c5000e268841bd70209df6f18be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '455ca24269db5bfe75eb274c9944f578') in 0.0253082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_284.asset
+  artifactKey: Guid(d7139e67b8ebef44f87fae94cc70caa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_284.asset using Guid(d7139e67b8ebef44f87fae94cc70caa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad7a86bc1535f73840b27020b7f6c6b0') in 0.0267845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_190.asset
+  artifactKey: Guid(bf9fa1d2d67893644b8e702871e0763d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_190.asset using Guid(bf9fa1d2d67893644b8e702871e0763d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2df86520619421811a2e6df7c454371a') in 0.0250887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_399.asset
+  artifactKey: Guid(a2274cf58a7329c4789194bb98b92b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_399.asset using Guid(a2274cf58a7329c4789194bb98b92b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ed5af76b2fe794352916ba5239e0268') in 0.0111582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_27.asset
+  artifactKey: Guid(2eb285351b7a1d740a5195125c765793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_27.asset using Guid(2eb285351b7a1d740a5195125c765793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a3aa6a6f136d6cba99e44f696434fca') in 0.0098366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_969.asset
+  artifactKey: Guid(46e4ef7da3026e14494904205e367282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_969.asset using Guid(46e4ef7da3026e14494904205e367282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a551ca59f4765e0a08e5c5c9c10c4fb7') in 0.0086877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_44.asset
+  artifactKey: Guid(fcddbf38b27dd334f8c456e672629ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_44.asset using Guid(fcddbf38b27dd334f8c456e672629ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a7d475873613e6099b2acfb028776b5') in 0.0087864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_974.asset
+  artifactKey: Guid(eb47947c1d09c27428ce4534ed1d1205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_974.asset using Guid(eb47947c1d09c27428ce4534ed1d1205) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d8f0c9a4a8e9925b4008aac97bd247d') in 0.0082063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_146.asset
+  artifactKey: Guid(3b3c374eb1bcc7d4d828cab31c4142de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_146.asset using Guid(3b3c374eb1bcc7d4d828cab31c4142de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1be838d418ce4a9cc34196af660bfb0b') in 0.0084212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_632.asset
+  artifactKey: Guid(61b8a86f2c5e07b4aa67049f1890eaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_632.asset using Guid(61b8a86f2c5e07b4aa67049f1890eaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1120354e597337717c78bf8d106b5263') in 0.0086588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_530.asset
+  artifactKey: Guid(26eda081a5c0c60448102efa3b270f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_530.asset using Guid(26eda081a5c0c60448102efa3b270f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0161aa0f4ef6fc7974b3ea48f26cea0d') in 0.0091024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_1032.asset
+  artifactKey: Guid(327badb862d26c548942c926a311511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_1032.asset using Guid(327badb862d26c548942c926a311511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edbc9b0230b32abca7665f7526ff13d8') in 0.0259307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_89.asset
+  artifactKey: Guid(963cc2788a228f440a66fd952a5dcb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_89.asset using Guid(963cc2788a228f440a66fd952a5dcb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4daefa0f0a807cdbb84e1567f85716f3') in 0.0098806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_302.asset
+  artifactKey: Guid(ab602ddeb1897614cb088a36fda0c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_302.asset using Guid(ab602ddeb1897614cb088a36fda0c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b156baf0e7d2f48442ec44fdf126dc34') in 0.0267843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_672.asset
+  artifactKey: Guid(05e63c18b48eeda4cb3f932d9d97bf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_672.asset using Guid(05e63c18b48eeda4cb3f932d9d97bf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcd1af1174c5c8c69cdfd10f5b314f85') in 0.0094887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_785.asset
+  artifactKey: Guid(9b556bfbb083df04990279db84c0a1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_785.asset using Guid(9b556bfbb083df04990279db84c0a1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '839014923521ce6dc22c8d32403cc039') in 0.0251013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_460.asset
+  artifactKey: Guid(f6c88577047c02c458b7fa4efdb2086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_460.asset using Guid(f6c88577047c02c458b7fa4efdb2086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74a4173ab7b0de3c87c36679faaf979d') in 0.008398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_300.asset
+  artifactKey: Guid(d7499a82d0a7e794bbd7e64360dc765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_300.asset using Guid(d7499a82d0a7e794bbd7e64360dc765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddc6bff1797f9e82650a8c15d7a449f9') in 0.0086035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_855.asset
+  artifactKey: Guid(4f691da8d74b16e4e80f088f5aaf1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_855.asset using Guid(4f691da8d74b16e4e80f088f5aaf1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '480fdf38681bf04b8849d7c5c345b084') in 0.0245663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_644.asset
+  artifactKey: Guid(f2d8d1bea1b37f541972ad67636fbfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_644.asset using Guid(f2d8d1bea1b37f541972ad67636fbfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b5bceaa54fc7203b556d4890a787f95') in 0.0260792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_356.asset
+  artifactKey: Guid(0afbfb5834c355f4d98c8536697f5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_356.asset using Guid(0afbfb5834c355f4d98c8536697f5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58d72a8cde5eec841dd69f26574d6aba') in 0.0085967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_204.asset
+  artifactKey: Guid(4060768d2f5e16849b8dfb3d19ea52d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_204.asset using Guid(4060768d2f5e16849b8dfb3d19ea52d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbfce4729f70bd38856d128a82b45d92') in 0.0086342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_282.asset
+  artifactKey: Guid(2dc09504111f5654ea9b6c788fd0e589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_282.asset using Guid(2dc09504111f5654ea9b6c788fd0e589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cbe14bd1a48926f145d7bb90b06fb13') in 0.0108897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_878.asset
+  artifactKey: Guid(c50afcf9d4daa0b438af68aa8d50c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_878.asset using Guid(c50afcf9d4daa0b438af68aa8d50c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de19b5fcd8c5ab6f26c4f759010cf503') in 0.0088397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_970.asset
+  artifactKey: Guid(6ce4989b198823e4bb4ebaaa2cf9fbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_970.asset using Guid(6ce4989b198823e4bb4ebaaa2cf9fbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c2df28c78510da494c6cda9da6cb011') in 0.0072756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_987.asset
+  artifactKey: Guid(a4ce5ab2659fc73489d0bf8bf70e5fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_987.asset using Guid(a4ce5ab2659fc73489d0bf8bf70e5fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99efc7898ec042eafbf16d28e0a1b734') in 0.0076847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_454.asset
+  artifactKey: Guid(f272165004b6d1740b2289214665766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_454.asset using Guid(f272165004b6d1740b2289214665766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6310e3f2a86f6426541496dd34e66933') in 0.0267399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_41.asset
+  artifactKey: Guid(01093c90737195841a34a68088f8e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_41.asset using Guid(01093c90737195841a34a68088f8e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b22da9cea5862698e788c19b74e28f0d') in 0.0073599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_944.asset
+  artifactKey: Guid(7444fd431d482414c9f65333caac085d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_944.asset using Guid(7444fd431d482414c9f65333caac085d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85c2e75a428d9f25a725704f8ae2e6e5') in 0.02408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_13.asset
+  artifactKey: Guid(3f2da54f0ed801d4482d922d5000a6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_13.asset using Guid(3f2da54f0ed801d4482d922d5000a6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b95c341e9b0ce85285678c1e1474a2e1') in 0.0089646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_676.asset
+  artifactKey: Guid(5e3b1f8fec55771489ad82c881a5af61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_676.asset using Guid(5e3b1f8fec55771489ad82c881a5af61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d66e9a5f1bc5b10ba2df0f8d34ac977') in 0.0094542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_374.asset
+  artifactKey: Guid(df19ea00ee23e5b46b08bdc9fb8becd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_374.asset using Guid(df19ea00ee23e5b46b08bdc9fb8becd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd73bef3161799eedd43b9f76086293a') in 0.0080696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_778.asset
+  artifactKey: Guid(8741c02dc2691e64da22f06d1336089b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_778.asset using Guid(8741c02dc2691e64da22f06d1336089b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd046107406eceebb02a4451cd4950254') in 0.010208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_538.asset
+  artifactKey: Guid(d31eb6ff5be00a4408bc5f8427bf2e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_538.asset using Guid(d31eb6ff5be00a4408bc5f8427bf2e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26acf0c38caada1d8db039c783f24237') in 0.0118356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_308.asset
+  artifactKey: Guid(830a6ec69de27094aae53b2e053d8039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_308.asset using Guid(830a6ec69de27094aae53b2e053d8039) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd00e366ccf2cb38122b4a3ad3aff9379') in 0.0244051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_520.asset
+  artifactKey: Guid(b8c05ffa5854a1a44ade9ba079808dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_520.asset using Guid(b8c05ffa5854a1a44ade9ba079808dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d1474c4150a0e7b03cb2fef5b9127c2') in 0.0214106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_316.asset
+  artifactKey: Guid(7a1692e57fab32241ab492c7fe6f612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_316.asset using Guid(7a1692e57fab32241ab492c7fe6f612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52b8033601ff87248a3995b779e26748') in 0.0203213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_947.asset
+  artifactKey: Guid(cccf1cbbaed71a24caa78bcfbef650f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_947.asset using Guid(cccf1cbbaed71a24caa78bcfbef650f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49fdcfccd7affc0af3df72eadda937c0') in 0.0082652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_945.asset
+  artifactKey: Guid(99972fb69c1d01645b68a4b551c75b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_945.asset using Guid(99972fb69c1d01645b68a4b551c75b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e78bad1df3b03ff6295ec68d086ebb5') in 0.0275763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_17.asset
+  artifactKey: Guid(9b93ac214610bcc4b9415f8eb9e10ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_17.asset using Guid(9b93ac214610bcc4b9415f8eb9e10ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be792c7eea31d9e3be539da0f68debb3') in 0.0097155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_145.asset
+  artifactKey: Guid(6a854265b808b1449a4f74763a1ae492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_145.asset using Guid(6a854265b808b1449a4f74763a1ae492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd87c45bbfa6d77465cb249aa572e433') in 0.0261354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_5.asset
+  artifactKey: Guid(f821e4c6a6704e34482fd74d03a64689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_5.asset using Guid(f821e4c6a6704e34482fd74d03a64689) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db65618b20a85d1e88b0d5741a382f45') in 0.0085554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_315.asset
+  artifactKey: Guid(bcfb9a4108feb6b499f6806ebef686e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_315.asset using Guid(bcfb9a4108feb6b499f6806ebef686e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66f8035d97502f41359012efa1743714') in 0.0095751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_437.asset
+  artifactKey: Guid(c93696d65b1e1094e9126efc52219e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_437.asset using Guid(c93696d65b1e1094e9126efc52219e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb075c41e86b5e914ddf12feb7879a06') in 0.0084944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_667.asset
+  artifactKey: Guid(c3709f700b49a0449b997925b4ea3a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_667.asset using Guid(c3709f700b49a0449b997925b4ea3a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '721dc456a783b52010aad9d63c186ef4') in 0.0237549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_946.asset
+  artifactKey: Guid(0b818a0ef8d0f8c43853df8209531485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_946.asset using Guid(0b818a0ef8d0f8c43853df8209531485) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e69053063fba03750885624020015691') in 0.0086799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_742.asset
+  artifactKey: Guid(cf738f670e2f93d45bf2d56014415fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_742.asset using Guid(cf738f670e2f93d45bf2d56014415fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c3ea4c65554847ca1d3825262c20157') in 0.0221303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_829.asset
+  artifactKey: Guid(329e9edc7e899c54da39a8b00254a730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_829.asset using Guid(329e9edc7e899c54da39a8b00254a730) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '504b3a37dd54df6d2ecdbd4530d144c2') in 0.0264495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_252.asset
+  artifactKey: Guid(baa3388eec1cb3447905d48ef811ab88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_252.asset using Guid(baa3388eec1cb3447905d48ef811ab88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2a88706c4774cc6f5244b14339ae896') in 0.0088294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_95.asset
+  artifactKey: Guid(8316eb8a486a19942948ba8a30973553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_95.asset using Guid(8316eb8a486a19942948ba8a30973553) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a612606334733d3a5832c0cca4eded5') in 0.0081225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_459.asset
+  artifactKey: Guid(2a34a56df45df92449a077d8d0b4ca1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_459.asset using Guid(2a34a56df45df92449a077d8d0b4ca1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1554e2031fecc130029d7b164ef81da') in 0.0234699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_807.asset
+  artifactKey: Guid(9f88293902bbf3c47ae8e477451bedf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_807.asset using Guid(9f88293902bbf3c47ae8e477451bedf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f95c5b4f25ee6c8095a68ed939dce7d2') in 0.0073679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_859.asset
+  artifactKey: Guid(216c3718f66db2f4da01ad6f2358908a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_859.asset using Guid(216c3718f66db2f4da01ad6f2358908a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f30ab29e107293fdd71a45985b988e2') in 0.0254492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_628.asset
+  artifactKey: Guid(b6b8497d878096646b732e5a88d66879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_628.asset using Guid(b6b8497d878096646b732e5a88d66879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b1c49dfff1a80f64aee299cb9e9c98d') in 0.0071358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_544.asset
+  artifactKey: Guid(3b7c773517bb0f3468a0f786277a3ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_544.asset using Guid(3b7c773517bb0f3468a0f786277a3ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de0926a86470c82fcb9404c564af7376') in 0.0089337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_171.asset
+  artifactKey: Guid(15ec3fd38c7dd654989eb75f100d07c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_171.asset using Guid(15ec3fd38c7dd654989eb75f100d07c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfd743e35aeda2aa8abd9da13178866d') in 0.0089847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_596.asset
+  artifactKey: Guid(8502e77389d64d643b290a7b4dc18690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_596.asset using Guid(8502e77389d64d643b290a7b4dc18690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd580e3ef2eccdc7bfdb998634966767e') in 0.0239917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_659.asset
+  artifactKey: Guid(110036d4d6186e74391e7ea382c231c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_659.asset using Guid(110036d4d6186e74391e7ea382c231c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1792f10a9a21d425ea259465e7e41c9a') in 0.0086407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_40.asset
+  artifactKey: Guid(f0f211a17351fa942a71c9cbe6ce5967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_40.asset using Guid(f0f211a17351fa942a71c9cbe6ce5967) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96688df4d90d84eae2c7b03d0ec75057') in 0.0241745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_64.asset
+  artifactKey: Guid(b9804d692e888184e9460948bd91408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_64.asset using Guid(b9804d692e888184e9460948bd91408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fcff4b06af7a5671177128521902e1e') in 0.0094756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_514.asset
+  artifactKey: Guid(ac073ba739ac76b4ca8f9312d56c3cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_514.asset using Guid(ac073ba739ac76b4ca8f9312d56c3cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35ce63128583130aa1d99d9786d0bbf2') in 0.0087731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_492.asset
+  artifactKey: Guid(ab94611f0dae19c4cb7f2053dd32cab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_492.asset using Guid(ab94611f0dae19c4cb7f2053dd32cab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '313e53ff638ed873e8c32cdea5a0b5f7') in 0.0227368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_232.asset
+  artifactKey: Guid(a8c6b6d395fc5c146829586cb3277b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_232.asset using Guid(a8c6b6d395fc5c146829586cb3277b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec0306d9810cb765c93f364b312817fa') in 0.0253248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_358.asset
+  artifactKey: Guid(dd4e3a8712cd2fe4bada8f93197046c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_358.asset using Guid(dd4e3a8712cd2fe4bada8f93197046c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdcb736c78ff7c1c700a02df205e78c0') in 0.0244655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_425.asset
+  artifactKey: Guid(01613e87e41968e4e8f3e762acc42ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_425.asset using Guid(01613e87e41968e4e8f3e762acc42ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5f1fb7bb0e8c33a7c9482f1731a1c5c') in 0.0088417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_589.asset
+  artifactKey: Guid(7c9b61b5310ab0f4ea86b7c4c7fc1688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_589.asset using Guid(7c9b61b5310ab0f4ea86b7c4c7fc1688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6782691716a72c4e1fb3bd5eb2114cf') in 0.0237212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_607.asset
+  artifactKey: Guid(f6b8b297208f4d841bde8ebe23c46a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_607.asset using Guid(f6b8b297208f4d841bde8ebe23c46a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82d8569cadb172ac2dc6ea29473f74f6') in 0.0243614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_876.asset
+  artifactKey: Guid(25c7e27a393b2dd4986d4586a9850565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_876.asset using Guid(25c7e27a393b2dd4986d4586a9850565) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbff83f730697f3a9b7fb468f9136f75') in 0.02131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_357.asset
+  artifactKey: Guid(17abb1a674ed8cc4e9b4fa4f65cabba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_357.asset using Guid(17abb1a674ed8cc4e9b4fa4f65cabba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e984b2f6edbec2a906d77372f600092') in 0.0107389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_537.asset
+  artifactKey: Guid(b77f1276a55da194e96100266840d72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_537.asset using Guid(b77f1276a55da194e96100266840d72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e63a1d000f32f3048ffb8f57f4ad459') in 0.0276179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_923.asset
+  artifactKey: Guid(427e52620c7aff740a8cdf2696f7c935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_923.asset using Guid(427e52620c7aff740a8cdf2696f7c935) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c239fbb416009736795b01d0b79b6026') in 0.0246307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_582.asset
+  artifactKey: Guid(b2003444ddb09ff4eb789ed4e74c371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_582.asset using Guid(b2003444ddb09ff4eb789ed4e74c371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ad4888601f9b537f78c3667a74253e5') in 0.0244794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_424.asset
+  artifactKey: Guid(cf12767f1a30ad4488cfea5b027ac9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_424.asset using Guid(cf12767f1a30ad4488cfea5b027ac9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32b95abe0cc80e84b2f6bd64f1bf79d1') in 0.0103978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_984.asset
+  artifactKey: Guid(fd3d88f52b24b844e9762793e0d7b2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_984.asset using Guid(fd3d88f52b24b844e9762793e0d7b2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1682ff87ed7835f4e6452c3826c8aee3') in 0.025642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_202.asset
+  artifactKey: Guid(96365ba7afa1a6b48aca22009fba2759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_202.asset using Guid(96365ba7afa1a6b48aca22009fba2759) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0fdb04480ae53a4dc0d369d2332afbc') in 0.0248728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_414.asset
+  artifactKey: Guid(bae26e255c56abf40a074297dd46b07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_414.asset using Guid(bae26e255c56abf40a074297dd46b07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc68954eeed832d85e56c86983af4ecf') in 0.0079948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_602.asset
+  artifactKey: Guid(acecc87fe289e864ca7f2b243afa7925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_602.asset using Guid(acecc87fe289e864ca7f2b243afa7925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4d0f899b4ca50009bd6192314e158d8') in 0.0245816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_500.asset
+  artifactKey: Guid(c11fa6a4ede4d3f488b7bd2b85df1691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_500.asset using Guid(c11fa6a4ede4d3f488b7bd2b85df1691) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd616ed0bfd4dedd8b41c5c4cd21bc359') in 0.0211949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_603.asset
+  artifactKey: Guid(b7c8f881a8bf20e41be91ce3afc0df96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_603.asset using Guid(b7c8f881a8bf20e41be91ce3afc0df96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7042f4418cdb3e7393a669899edccd3') in 0.0242215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_734.asset
+  artifactKey: Guid(328a30e7530ae6849a0a5d094a36afbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_734.asset using Guid(328a30e7530ae6849a0a5d094a36afbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cdaecef82c5e4564fbc5961397bb765') in 0.0262074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_508.asset
+  artifactKey: Guid(69f5a1ebf8d69a74992192e5ae0cccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_508.asset using Guid(69f5a1ebf8d69a74992192e5ae0cccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57f3ceb007561289320244d5d7b3a96a') in 0.0080875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_427.asset
+  artifactKey: Guid(20b2ab599e0174544b19b205d3897619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_427.asset using Guid(20b2ab599e0174544b19b205d3897619) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e95428b136fdafbfb16600142ac0606') in 0.0074007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_375.asset
+  artifactKey: Guid(452c99d52c319e74d9359a8fa519b645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_375.asset using Guid(452c99d52c319e74d9359a8fa519b645) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c8d17206a4680848bac25b2cd424634') in 0.0270022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_493.asset
+  artifactKey: Guid(d997c1153067eaf44bceceaa63cd0b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_493.asset using Guid(d997c1153067eaf44bceceaa63cd0b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4602dcc18a780ce848d0d615f5c003ad') in 0.0096132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_404.asset
+  artifactKey: Guid(bb2f2f22e1809434bb1330f088974250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_404.asset using Guid(bb2f2f22e1809434bb1330f088974250) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28f96170694d0c3f70dadcf970a88ebb') in 0.0241066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_802.asset
+  artifactKey: Guid(9d221e7ccadb9324395147fa63c21b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_802.asset using Guid(9d221e7ccadb9324395147fa63c21b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec17ceaf6321e9e1f45827545d788c53') in 0.0101332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_262.asset
+  artifactKey: Guid(7286eea2605653248a0a9e133b5cd128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_262.asset using Guid(7286eea2605653248a0a9e133b5cd128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f90736874aa60adef072108d30545039') in 0.0070287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_819.asset
+  artifactKey: Guid(dfbd22e9642f8194c80bab36530fe05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_819.asset using Guid(dfbd22e9642f8194c80bab36530fe05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6e48f6b973f898488548f9af78bfbc4') in 0.0071386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_977.asset
+  artifactKey: Guid(1cc0d6b0638b90849abb02b36f7fe541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_977.asset using Guid(1cc0d6b0638b90849abb02b36f7fe541) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f19f58998501c094b9546312ede5333') in 0.0239035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_386.asset
+  artifactKey: Guid(c57df35424a11a647a38212e624e62d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_386.asset using Guid(c57df35424a11a647a38212e624e62d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37ee59f11c4451840cfcfe840025680e') in 0.0098383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_832.asset
+  artifactKey: Guid(eae7c4253fb15cb40b4822a58c36e441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_832.asset using Guid(eae7c4253fb15cb40b4822a58c36e441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b8fc0caf034bdf3c60b21152445dfe8') in 0.0237071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_503.asset
+  artifactKey: Guid(70d676af2d6298540b513f4019582a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_503.asset using Guid(70d676af2d6298540b513f4019582a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa35416a61ad8c53930f597dc6a452eb') in 0.0253653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_869.asset
+  artifactKey: Guid(647fb42a8f1dec1488e46fdcbcabb3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_869.asset using Guid(647fb42a8f1dec1488e46fdcbcabb3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab5fb8d632f28f4754f342d104baf0a2') in 0.0100734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_377.asset
+  artifactKey: Guid(cbb4df4760df4af4f937a00b283fc8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_377.asset using Guid(cbb4df4760df4af4f937a00b283fc8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01a57e32410e1dfca3b962fa4d7f4202') in 0.0089213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_990.asset
+  artifactKey: Guid(713d5192bea04ee44a2aced6800484ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_990.asset using Guid(713d5192bea04ee44a2aced6800484ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14d57639d974d1e54f9609bd5ef7bdcb') in 0.0091534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_20.asset
+  artifactKey: Guid(957696f62d342114c967cad964da0568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_20.asset using Guid(957696f62d342114c967cad964da0568) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae8f2e6db453f09ee78569692b3b8d9c') in 0.0073347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_185.asset
+  artifactKey: Guid(6c5ebb90ba8caf54e9bbe8df6b021d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_185.asset using Guid(6c5ebb90ba8caf54e9bbe8df6b021d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6001afbdcfeeccee8f2e7493698a0191') in 0.0101877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_663.asset
+  artifactKey: Guid(2d0fbd77fd30e6645854118cf680f7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_663.asset using Guid(2d0fbd77fd30e6645854118cf680f7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e01a567e357c230d5b84dc4e7e3486d5') in 0.0247307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_264.asset
+  artifactKey: Guid(09a4129ffe67bc04b84520b796a2b2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_264.asset using Guid(09a4129ffe67bc04b84520b796a2b2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d0df0338602afbf0a253f6ab4363d9d') in 0.0271683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_608.asset
+  artifactKey: Guid(8b87cd13ce4f7ed4caede0d6e676cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_608.asset using Guid(8b87cd13ce4f7ed4caede0d6e676cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be0162b393246fd44601b2713e5837e5') in 0.0244686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_842.asset
+  artifactKey: Guid(5893aedcd95f93a49a80792d7a0c3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_842.asset using Guid(5893aedcd95f93a49a80792d7a0c3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34e5428c63140da898e3b519c79959f2') in 0.008457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_505.asset
+  artifactKey: Guid(8f39ccf0c993c1448b8b1469a0317f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_505.asset using Guid(8f39ccf0c993c1448b8b1469a0317f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2035a532919c21510b69e76baa313bfa') in 0.0251365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_296.asset
+  artifactKey: Guid(9664230874259d74c83d923d37b66fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_296.asset using Guid(9664230874259d74c83d923d37b66fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94c052ff368b1d76e10a0b9f44d1ca26') in 0.0080923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_581.asset
+  artifactKey: Guid(ca76992ed4e3f8843b4576f01913637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_581.asset using Guid(ca76992ed4e3f8843b4576f01913637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfc446107621d9930c5df98aa0c4359c') in 0.0221161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_188.asset
+  artifactKey: Guid(69ee56df604cdee41aa9231679eec3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_188.asset using Guid(69ee56df604cdee41aa9231679eec3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d96c0560eb63eb915bc0f3ed012d34a') in 0.0243064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_568.asset
+  artifactKey: Guid(c802c1e2f344f5a44b0685c649c9f44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_568.asset using Guid(c802c1e2f344f5a44b0685c649c9f44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '355b9d94a0387c0818bff7f20c928163') in 0.009255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_165.asset
+  artifactKey: Guid(e8e536805c42d1a43b772d25cd6bf79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_165.asset using Guid(e8e536805c42d1a43b772d25cd6bf79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '706481ed45d167e26f82239cff6f2f9c') in 0.0088297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_245.asset
+  artifactKey: Guid(606bee9abeefe90438e6ea6aa25f363c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_245.asset using Guid(606bee9abeefe90438e6ea6aa25f363c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67a30e8c5a508447ec9e651a5dd067ad') in 0.0086542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_223.asset
+  artifactKey: Guid(a2a38281b7abd8948a7af50988492d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_223.asset using Guid(a2a38281b7abd8948a7af50988492d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0169b76f74f5772e50aaeea9ae5d899a') in 0.0109569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_577.asset
+  artifactKey: Guid(591989d6f73a94d47b7287986aead2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_577.asset using Guid(591989d6f73a94d47b7287986aead2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01abb14e0c961e713fd56fea32f764a1') in 0.0086934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_105.asset
+  artifactKey: Guid(042be8253fd0bda47a6415f7d8e61862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_105.asset using Guid(042be8253fd0bda47a6415f7d8e61862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c3e41174b74afdfac4390989407d603') in 0.0074725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_555.asset
+  artifactKey: Guid(661fd14bc3ea36b4995207bb5b506b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_555.asset using Guid(661fd14bc3ea36b4995207bb5b506b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60cbf51c6518aefa214487c30ca24bc3') in 0.0240032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_722.asset
+  artifactKey: Guid(b48b3c1bd34e07444b7292f8c3675055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_722.asset using Guid(b48b3c1bd34e07444b7292f8c3675055) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0628e7411eb3230ab0dcd78bfed40b7') in 0.0081707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_747.asset
+  artifactKey: Guid(f938acc2e99048f4182dafec4db6a12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_747.asset using Guid(f938acc2e99048f4182dafec4db6a12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '814f7592bf484b0742abc30c71824b36') in 0.0207155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_655.asset
+  artifactKey: Guid(0bed6a1c18287a24192572963f48ed22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_655.asset using Guid(0bed6a1c18287a24192572963f48ed22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d19c411ae834d544808ba3e85034045') in 0.0272423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Decorations/walls/Ground_rocks_496.asset
+  artifactKey: Guid(088e2be48ddeae541aa7f5c00abcb6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Decorations/walls/Ground_rocks_496.asset using Guid(088e2be48ddeae541aa7f5c00abcb6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a8c804083b7eaab526ca103b923d441') in 0.0120925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -15,7 +15,7 @@ C:/Users/Deard51/Desktop/NewGame/Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62826
+52928
 -job-worker-count
 10
 -background-job-worker-count
@@ -59,12 +59,14 @@ C:/Users/Deard51/Desktop/NewGame/Game
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21092]  Target information:
+Player connection [166532]  Target information:
 
-Player connection [21092]  * "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1477052904 [EditorId] 1477052904 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PP60NSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [166532]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 458593152 [EditorId] 458593152 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PP60NSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21092] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21092] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [166532]  * "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 458593152 [EditorId] 458593152 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PP60NSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [166532] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [166532] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 10
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +78,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.99 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.47f1 (2ad1ed33fd3b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/Resources/UnitySubsystems
@@ -92,42 +94,42 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001484 seconds.
-- Loaded All Assemblies, in  0.480 seconds
+Registered in 0.001724 seconds.
+- Loaded All Assemblies, in  0.363 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.309 seconds
-Domain Reload Profiling: 788ms
-	BeginReloadAssembly (246ms)
+- Finished resetting the current domain, in  0.371 seconds
+Domain Reload Profiling: 733ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (149ms)
-		LoadAssemblies (244ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (137ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (132ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (127ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (309ms)
+	FinalizeReload (371ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (266ms)
+		SetupLoadedEditorAssemblies (331ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (143ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (192ms)
 			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -137,218 +139,340 @@ Domain Reload Profiling: 788ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.810 seconds
-Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.789 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.766 seconds
-Domain Reload Profiling: 1574ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  0.869 seconds
+Domain Reload Profiling: 1655ms
+	BeginReloadAssembly (178ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (563ms)
-		LoadAssemblies (381ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (534ms)
+		LoadAssemblies (358ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (271ms)
-			TypeCache.Refresh (190ms)
-				TypeCache.ScanAssembly (174ms)
-			BuildScriptInfoCaches (67ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (766ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (623ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (373ms)
-			ProcessInitializeOnLoadMethodAttributes (127ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6718 unused Assets / (5.7 MB). Loaded Objects now: 7403.
-Memory consumption went from 190.4 MB to 184.6 MB.
-Total: 13.239400 ms (FindLiveObjects: 1.975200 ms CreateObjectMapping: 0.675900 ms MarkObjects: 5.835500 ms  DeleteObjects: 4.746800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 5723808.387978 seconds.
-  path: Assets/TextMesh Pro/Fonts
-  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1edbb87b2170d43e1ca5129787312f12') in 0.003766 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.654 seconds
-Refreshing native plugins compatible for Editor in 1.75 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.741 seconds
-Domain Reload Profiling: 1399ms
-	BeginReloadAssembly (216ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (374ms)
-		LoadAssemblies (307ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (165ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (145ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (741ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (560ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (364ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6717 unused Assets / (6.3 MB). Loaded Objects now: 7408.
-Memory consumption went from 169.9 MB to 163.6 MB.
-Total: 9.584900 ms (FindLiveObjects: 0.956900 ms CreateObjectMapping: 0.379900 ms MarkObjects: 4.812000 ms  DeleteObjects: 3.434600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.57 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6705 unused Assets / (7.0 MB). Loaded Objects now: 7407.
-Memory consumption went from 170.1 MB to 163.1 MB.
-Total: 21.873700 ms (FindLiveObjects: 1.081200 ms CreateObjectMapping: 1.155200 ms MarkObjects: 12.992100 ms  DeleteObjects: 6.642600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.012 seconds
-Refreshing native plugins compatible for Editor in 2.27 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.047 seconds
-Domain Reload Profiling: 2061ms
-	BeginReloadAssembly (302ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (595ms)
-		LoadAssemblies (494ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (264ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (231ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1051ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (697ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (150ms)
-			ProcessInitializeOnLoadAttributes (420ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 1.70 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6716 unused Assets / (6.4 MB). Loaded Objects now: 7409.
-Memory consumption went from 169.9 MB to 163.5 MB.
-Total: 12.698600 ms (FindLiveObjects: 0.581600 ms CreateObjectMapping: 0.500200 ms MarkObjects: 7.289400 ms  DeleteObjects: 4.326300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.882 seconds
-Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.866 seconds
-Domain Reload Profiling: 1750ms
-	BeginReloadAssembly (255ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (548ms)
-		LoadAssemblies (384ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (279ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (252ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (181ms)
+			BuildScriptInfoCaches (60ms)
 			ResolveRequiredComponents (12ms)
-	FinalizeReload (867ms)
+	FinalizeReload (869ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (610ms)
+		SetupLoadedEditorAssemblies (689ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (146ms)
-			ProcessInitializeOnLoadAttributes (371ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (408ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6716 unused Assets / (7.1 MB). Loaded Objects now: 7411.
-Memory consumption went from 170.0 MB to 162.9 MB.
-Total: 12.249700 ms (FindLiveObjects: 1.022600 ms CreateObjectMapping: 0.559300 ms MarkObjects: 5.972400 ms  DeleteObjects: 4.693400 ms)
+Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6717 unused Assets / (6.0 MB). Loaded Objects now: 7402.
+Memory consumption went from 200.4 MB to 194.4 MB.
+Total: 8.677000 ms (FindLiveObjects: 0.957500 ms CreateObjectMapping: 0.642100 ms MarkObjects: 4.286200 ms  DeleteObjects: 2.788500 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 4042.493881 seconds.
-  path: Assets/Scripts/Enemies/EnemyAI.cs
-  artifactKey: Guid(3d6ba57087085554ca3d3affeb1f36fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemies/EnemyAI.cs using Guid(3d6ba57087085554ca3d3affeb1f36fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d62f9807a47b00f1736498f41a3e11c') in 0.0064843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 5779638.241055 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Ice Water_3.asset
+  artifactKey: Guid(84b0393d0b1b4ea419dc757153b2cb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Ice Water_3.asset using Guid(84b0393d0b1b4ea419dc757153b2cb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f8b936af6e5a7144e22c6f87aef3af8') in 0.1050436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Verticle_0.asset
+  artifactKey: Guid(1fa192a0cda0d57449d2c2757e3e47cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Verticle_0.asset using Guid(1fa192a0cda0d57449d2c2757e3e47cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07cfe93be778ae6cf73dceddf62f4a8f') in 0.0098866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Corner.gif
+  artifactKey: Guid(89019aadbdd48be498ac257274b8882e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Corner.gif using Guid(89019aadbdd48be498ac257274b8882e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c593878caeb345fb2a3be753aadb191d') in 0.0748835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Ice Water_0.asset
+  artifactKey: Guid(411660595ca18f44aaac88350aeeb809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Ice Water_0.asset using Guid(411660595ca18f44aaac88350aeeb809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '198cd7c640eae99bc655d9b287491a99') in 0.0104607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Corner_3.asset
+  artifactKey: Guid(8af23b29cd736e5458fbbef6442bba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Corner_3.asset using Guid(8af23b29cd736e5458fbbef6442bba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dab1bc5907699d9dc8c700f2aa184b29') in 0.0083184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Horizontal_10.asset
+  artifactKey: Guid(34f7065e1b4c91f45ae961f08b2ed469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Horizontal_10.asset using Guid(34f7065e1b4c91f45ae961f08b2ed469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b12777b1d36867bdaa38f5e6541126f1') in 0.0094384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Horizontal.gif
+  artifactKey: Guid(2137dfdfda290124c9534a300d18c185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Horizontal.gif using Guid(2137dfdfda290124c9534a300d18c185) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fc12d6b866211df0701fd41d793ce67') in 0.0463835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Verticle_2.asset
+  artifactKey: Guid(12c5587774584ef47a8aff0dce0d12c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Verticle_2.asset using Guid(12c5587774584ef47a8aff0dce0d12c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce8887ff36009ecc2abba9168ff4b3a1') in 0.0082578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Corner_5.asset
+  artifactKey: Guid(cfa38e58492777b4daa97436497d4742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Corner_5.asset using Guid(cfa38e58492777b4daa97436497d4742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eda96101f385a14f4c981d3b82027080') in 0.0136653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Horizontal_9.asset
+  artifactKey: Guid(65e0a6f355fe00744873bc793fdbd802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Horizontal_9.asset using Guid(65e0a6f355fe00744873bc793fdbd802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d0c6cbcddc55cf0f95472b4619ca6a3') in 0.0075513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert .gif
+  artifactKey: Guid(e990060b32882e647b77e3418ea7303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert .gif using Guid(e990060b32882e647b77e3418ea7303d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c87dc91f13fbcfc34642e2f10c78bcb') in 0.0364578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Snow Edges_5.asset
+  artifactKey: Guid(a2d29fe57d2ae0f4d9e881e943b43f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Snow Edges_5.asset using Guid(a2d29fe57d2ae0f4d9e881e943b43f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dab4153b7ff4090fee8af27a533f4e98') in 0.0055696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Snow Verticle_8.asset
+  artifactKey: Guid(dd963e7549ec6e14cb367e36ee3e673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Snow Verticle_8.asset using Guid(dd963e7549ec6e14cb367e36ee3e673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54fc8cb4317d31e873df40cfb4312fe7') in 0.0057367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Corner_4.asset
+  artifactKey: Guid(a99af51928746ef448c5db95906f2bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Corner_4.asset using Guid(a99af51928746ef448c5db95906f2bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5a298514b23d04c409f72d6e912c380') in 0.0080775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Horizontal_1.asset
+  artifactKey: Guid(aa54ca5cc4a24f649bc12e0815e0c962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Horizontal_1.asset using Guid(aa54ca5cc4a24f649bc12e0815e0c962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2dfdd7f3d3b108d252eb614d0e14dfc') in 0.0075865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Water_8.asset
+  artifactKey: Guid(aadfec32dfbb3af4a894e253c9e93bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Water_8.asset using Guid(aadfec32dfbb3af4a894e253c9e93bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3944951136b99c65f7cfeb16b963135b') in 0.0192698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Water_3.asset
+  artifactKey: Guid(30bcd6a494833dd46b1f971b827c9649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Water_3.asset using Guid(30bcd6a494833dd46b1f971b827c9649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '836ddce1212b4c32518440729775fb31') in 0.0074734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert _6.asset
+  artifactKey: Guid(07f072ff6cf71d74c98bf813c8533edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert _6.asset using Guid(07f072ff6cf71d74c98bf813c8533edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1b0a5cfb692c4c273e2a0aa67e86fd5') in 0.0060243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Water_4.asset
+  artifactKey: Guid(5852acbd5ab103d42aa9dd197f1ccbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Water_4.asset using Guid(5852acbd5ab103d42aa9dd197f1ccbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6197a66cb7c6e0b9227fec53ea27059c') in 0.0088493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert _4.asset
+  artifactKey: Guid(1be45b80e419fe4449bc43c554b2abde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert _4.asset using Guid(1be45b80e419fe4449bc43c554b2abde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed0ab76d336ca476c6164333204f22e7') in 0.0172371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Snow_9.asset
+  artifactKey: Guid(f4f5d6a0de94d06478bb4ad1fdc221ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Snow_9.asset using Guid(f4f5d6a0de94d06478bb4ad1fdc221ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e363db4198a0ec66998fd3a41233a850') in 0.0054033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Grass Corner.gif
+  artifactKey: Guid(1088168c17eed8a4e80205148640ab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Grass Corner.gif using Guid(1088168c17eed8a4e80205148640ab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc078dfdce426ca3c58221d06b39b0fc') in 0.0466431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Snow Horizontal_5.asset
+  artifactKey: Guid(9fc7584bf74e63045aa77aac1fa01f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Snow Horizontal_5.asset using Guid(9fc7584bf74e63045aa77aac1fa01f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed64d5600c6fb1936c6abb4f96da19c8') in 0.0123364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Verticle_6.asset
+  artifactKey: Guid(5a231325404403849a8eff16555078a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Verticle_6.asset using Guid(5a231325404403849a8eff16555078a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da62a0a5f3e53e1e239a411b0e49c881') in 0.0067625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Snow Corner_1.asset
+  artifactKey: Guid(3419f26cffb63fe40b18b685dffeac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Snow Corner_1.asset using Guid(3419f26cffb63fe40b18b685dffeac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd47b7b317867df654d183f96f9e38c56') in 0.0058589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Horizontal_8.asset
+  artifactKey: Guid(8f084d6e5a84ee949954805a3eb1876b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Horizontal_8.asset using Guid(8f084d6e5a84ee949954805a3eb1876b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a3fc1d537e6e22097a215098c15a70c') in 0.0063811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Snow_6.asset
+  artifactKey: Guid(a61e571e807a5084ea2e339f34a19480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Snow_6.asset using Guid(a61e571e807a5084ea2e339f34a19480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '434cc5ca32c92aba7dd117ac9e3b5fd1') in 0.0061246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Water_1.asset
+  artifactKey: Guid(9143c90fd0256754785d1348ab109dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Water_1.asset using Guid(9143c90fd0256754785d1348ab109dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1085687975ddccc13589ffa073cc3b1d') in 0.0078603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Snow Verticle.gif
+  artifactKey: Guid(5858524cc13b4924cb246541c823d42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Snow Verticle.gif using Guid(5858524cc13b4924cb246541c823d42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25944f2d5d72d65c0df56df9acd13d7a') in 0.0348114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Snow_8.asset
+  artifactKey: Guid(9cd0092448a0b754c8fe9ce0543f9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Snow_8.asset using Guid(9cd0092448a0b754c8fe9ce0543f9e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5d3c27eb826e72ee3ddbec727927544') in 0.0072177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Snow Horizontal.gif
+  artifactKey: Guid(ad7bbdb5049fc1e4eb79e8ea4d2ffa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Snow Horizontal.gif using Guid(ad7bbdb5049fc1e4eb79e8ea4d2ffa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ef79229d511fee93e0c7a566d02d657') in 0.0376752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Snow Verticle_5.asset
+  artifactKey: Guid(e5bdd41d528f5d940970fe4fa33f36f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Snow Verticle_5.asset using Guid(e5bdd41d528f5d940970fe4fa33f36f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d8ec650eb768b12e58684689d9903e4') in 0.0071037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Ice Water.gif
+  artifactKey: Guid(4452be06d0fb5fb4c97fcc0c3bc92241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Ice Water.gif using Guid(4452be06d0fb5fb4c97fcc0c3bc92241) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fae2a850c753e7bad59ac7c9e2c6141') in 0.0346998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Horizontal_6.asset
+  artifactKey: Guid(6f2d8599ccaba7e4a99c3484126f3faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Horizontal_6.asset using Guid(6f2d8599ccaba7e4a99c3484126f3faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01bf8c804d2c0692d10fe0bc27b678f5') in 0.0123655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Desert Edges_1.asset
+  artifactKey: Guid(94f0c75ece0c7b340abbf94ee723154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Desert Edges_1.asset using Guid(94f0c75ece0c7b340abbf94ee723154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21c15b61eac7b4f65f9c062c3d5a10c3') in 0.0081539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Enviroment Starter Pack/Base/Grass_3.asset
+  artifactKey: Guid(8f0af8ee2ffe56f458c30d14cb9c3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Enviroment Starter Pack/Base/Grass_3.asset using Guid(8f0af8ee2ffe56f458c30d14cb9c3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0674ca0d3f877bac953d566e5dbd12f3') in 0.0088932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

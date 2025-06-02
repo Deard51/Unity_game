@@ -41,5 +41,26 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 920447509
+    locked: 0
+  - name: Map
+    uniqueID: 46640885
+    locked: 0
+  - name: Player
+    uniqueID: 2488654299
+    locked: 0
+  - name: Enemy
+    uniqueID: 3245833761
+    locked: 0
+  - name: Bow
+    uniqueID: 2512861835
+    locked: 0
+  - name: Arrow
+    uniqueID: 1030322327
+    locked: 0
+  - name: UI
+    uniqueID: 1687062449
+    locked: 0
   m_RenderingLayers:
   - Default
